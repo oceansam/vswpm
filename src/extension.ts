@@ -27,11 +27,7 @@ export function activate(context: vscode.ExtensionContext) {
       if (lastScore > newWpm) {
         setHighscore(newWpm);
       } else {
-        vscode.window.showInformationMessage(
-          `WPM Achieved: ${newWpm}wpm. \n ${
-            lastScore - newWpm
-          }wpm away from beating your highscore!`
-        );
+        vscode.window.showInformationMessage(`WPM Achieved: ${newWpm}wpm.`);
       }
     } else {
       setHighscore(newWpm);
