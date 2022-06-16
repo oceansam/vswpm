@@ -12,6 +12,19 @@
   "activationEvents": [
     "onCommand:vswpm.wpmcount"
   ],
+  "author": {
+    "name": "oceansam",
+    "url": "https://oceansam.netlify.app/"
+  },
+  "keywords": [
+    "wpm",
+    "word",
+    "count",
+    "per",
+    "minute",
+    "track"
+  ],
+  "publisher": "oceansam",
   "main": "./dist/extension.js",
   "contributes": {
     "commands": [
@@ -21,6 +34,11 @@
       }
     ]
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/oceansam/vswpm"
+  },
+  "icon": "assets/wpmkey.png",
   "scripts": {
     "vscode:prepublish": "npm run package",
     "compile": "webpack",
