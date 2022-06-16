@@ -22,6 +22,7 @@ Upon clicking Yes, a confirmation message will show and the minute countdown has
 ![image](https://user-images.githubusercontent.com/56453957/174146948-fee024e7-5961-48b6-b357-9ef11a48e760.png)
 
 After a minute, you will be notified of your new WPM.
+
 ![image](https://user-images.githubusercontent.com/56453957/174148343-ff748f25-a2ea-43a7-98ad-16e414ab084d.png)
 
 
