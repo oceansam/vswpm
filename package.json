@@ -17,7 +17,7 @@
     "commands": [
       {
         "command": "vswpm.wpmcount",
-        "title": "Log Productivity"
+        "title": "Log WPM (words per minute)"
       }
     ]
   },
